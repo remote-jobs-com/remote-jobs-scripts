@@ -9,11 +9,23 @@
     font-weight: bold;
     text-transform: uppercase;
     transition: 0.3s all;
+    text-decoration: none;
 
     &:hover,
     &:focus {
       background-color: $color-blue;
       border-color: $color-blue;
+    }
+
+    &.btn-secondary {
+      background-color: $color-pink;
+      border: 1px solid $color-pink;
+
+      &:hover,
+      &:focus {
+        background-color: $color-magenta;
+        border-color: $color-magenta;
+      }
     }
   }
 
