@@ -1,0 +1,39 @@
+.navbar {
+  .logo {
+    margin-right: 80px !important;
+  }
+
+  .navbar-left {
+    .navbar__item {
+      .navbar__link {
+        color: $color-navy-blue !important;
+      }
+
+      .navbar__login {
+        color: $color-blue !important;
+      }
+
+      .btn__blue {
+        padding: 0.75rem 1.5rem;
+        border-radius: 3px;
+        margin-top: 30px;
+        font-weight: bold;
+        transition: 0.3s all;
+        text-decoration: none;
+        background-color: transparent !important;
+        border: 1px solid $color-pink !important;
+        color: $color-pink !important;
+        height: auto !important;
+        line-height: 20px !important;
+        margin: 2px 0 0 0 !important;
+
+        &:hover,
+        &:focus {
+          background-color: $color-magenta !important;
+          border-color: $color-magenta !important;
+          color: white !important;
+        }
+      }
+    }
+  }
+}
