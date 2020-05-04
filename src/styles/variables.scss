@@ -4,3 +4,13 @@ $color-light-blue: #47d9fb;
 $color-purple: #9e12b1;
 $color-magenta: #b31097;
 $color-pink: #c91b88;
+
+$theme-colors: (
+        "navy-blue": $color-navy-blue,
+        "blue": $color-blue,
+        "light-blue": $color-light-blue,
+        "purple": $color-purple,
+        "magenta": $color-magenta,
+        "pink": $color-pink,
+        "white": white,
+);

@@ -1,0 +1,19 @@
+@mixin bg-variant($parent, $color) {
+  #{$parent} {
+    background-color: $color !important;
+  }
+}
+
+@mixin text-variant($parent, $color) {
+  #{$parent} {
+    color: $color !important;
+  }
+}
+
+@each $color, $value in $theme-colors {
+  @include bg-variant(".bg-#{$color}", $value);
+}
+
+@each $color, $value in $theme-colors {
+  @include text-variant(".text-#{$color}", $value);
+}
