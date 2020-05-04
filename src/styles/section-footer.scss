@@ -1,0 +1,11 @@
+footer.footer {
+  background-color: $color-navy-blue;
+
+  .container {
+    > div:last-child {
+      margin-top: 0;
+      padding-top: 0;
+      border-top: 0;
+    }
+  }
+}
