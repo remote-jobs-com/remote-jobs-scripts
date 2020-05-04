@@ -18,18 +18,17 @@
       }
 
       .btn__blue {
-        padding: 0.75rem 1.5rem;
-        border-radius: 3px;
-        margin-top: 30px;
+        padding: 0.75rem 2rem !important;
+        border-radius: 3px !important;
         font-weight: bold;
         transition: 0.3s all;
         text-decoration: none;
         background-color: transparent !important;
-        border: 1px solid $color-pink !important;
+        border: 2px solid $color-pink !important;
         color: $color-pink !important;
         height: auto !important;
         line-height: 20px !important;
-        margin: 2px 0 0 0 !important;
+        margin-top: 2px !important;
 
         &:hover,
         &:focus {
