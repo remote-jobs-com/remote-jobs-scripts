@@ -25,6 +25,8 @@
   }
 
   p {
+    margin-top: 12px;
+    margin-bottom: 0;
     color: white;
   }
 
@@ -34,6 +36,10 @@
     margin-left: auto;
     margin-right: auto;
 
+    .form-field {
+      display: flex;
+    }
+
     [type="text"] {
       padding: 0.75rem 1rem;
       background-color: white;
@@ -42,6 +48,7 @@
       margin-right: 16px;
       max-width: 490px;
       width: 100%;
+      flex-grow: 1;
     }
 
     [type="submit"] {
