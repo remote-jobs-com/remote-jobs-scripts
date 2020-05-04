@@ -35,31 +35,5 @@
     .form-field {
       display: flex;
     }
-
-    [type="text"] {
-      padding: 0.75rem 1rem;
-      background-color: white;
-      border: 1px solid white;
-      border-radius: 3px;
-      margin-right: 16px;
-      flex-grow: 1;
-    }
-
-    [type="submit"] {
-      background-color: $color-pink;
-      color: white;
-      border: 1px solid $color-pink;
-      text-transform: uppercase;
-      padding: 0.75rem 2.5rem;
-      font-weight: bold;
-      border-radius: 3px;
-      transition: 0.3s all;
-
-      &:hover,
-      &:focus {
-        background-color: $color-purple;
-        border-color: $color-purple;
-      }
-    }
   }
 }

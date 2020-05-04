@@ -1,6 +1,16 @@
+// Variables
 @import "styles/variables";
+
+// Utilities
 @import "styles/mixins";
 @import "styles/utilities";
+
+// General Styling
 @import "styles/typography";
 @import "styles/global";
+
+// Components
+@import "styles/buttons";
+
+// Templates
 @import "styles/homepage-hero";

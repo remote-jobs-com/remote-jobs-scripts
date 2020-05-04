@@ -4,6 +4,9 @@ $color-light-blue: #47d9fb;
 $color-purple: #9e12b1;
 $color-magenta: #b31097;
 $color-pink: #c91b88;
+$color-grey: #7c83a2;
+$color-medium-grey: #bcbfd1;
+$color-light-grey: #f8f8f8;
 
 $theme-colors: (
         "navy-blue": $color-navy-blue,
@@ -12,6 +15,9 @@ $theme-colors: (
         "purple": $color-purple,
         "magenta": $color-magenta,
         "pink": $color-pink,
+        "grey": $color-grey,
+        "medium-grey": $color-medium-grey,
+        "light-grey": $color-light-grey,
         "white": white,
 );
 
