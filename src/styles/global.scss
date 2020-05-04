@@ -1,4 +1,8 @@
 .remote-jobs {
   position: relative;
   z-index: 9;
+
+  .container {
+    max-width: 1140px !important;
+  }
 }
