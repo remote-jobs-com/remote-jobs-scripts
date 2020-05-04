@@ -27,6 +27,16 @@
     color: $color-navy-blue;
   }
 
+  p {
+    font-size: 18px;
+    line-height: normal;
+    font-weight: normal;
+
+    small {
+      font-size: 14px;
+    }
+  }
+
   a {
     text-decoration: underline;
   }
