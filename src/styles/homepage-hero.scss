@@ -1,4 +1,5 @@
 #homepage-hero {
+  position: relative;
   background-image: url('https://raw.githubusercontent.com/remote-jobs-com/remote-jobs-scripts/master/assets/images/homepage-hero-background.jpg');
   background-size: cover;
   background-position: center center;
@@ -23,7 +24,26 @@
     margin-bottom: 88px;
   }
 
+  p {
+    color: white;
+  }
+
   form {
+    width: 100%;
+    max-width: 786px;
+    margin-left: auto;
+    margin-right: auto;
+
+    [type="text"] {
+      padding: 0.75rem 1rem;
+      background-color: white;
+      border: 1px solid white;
+      border-radius: 3px;
+      margin-right: 16px;
+      max-width: 490px;
+      width: 100%;
+    }
+
     [type="submit"] {
       background-color: $color-pink;
       color: white;
@@ -31,6 +51,7 @@
       text-transform: uppercase;
       padding: 0.75rem 2.5rem;
       font-weight: bold;
+      border-radius: 3px;
       transition: 0.3s all;
 
       &:hover,
