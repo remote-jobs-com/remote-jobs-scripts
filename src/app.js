@@ -1,6 +1,6 @@
 let waitForjQuery = setInterval(function () {
     if (typeof $ !== 'undefined') {
-        console.log('hello jquery', $);
+        console.log('hello remote jobs', $);
 
         clearInterval(waitForjQuery);
     }
