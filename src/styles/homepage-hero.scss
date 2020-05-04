@@ -7,8 +7,37 @@
   padding-bottom: 120px;
   z-index: 9;
 
-  h1,
-  h2 {
+  h1 {
+    font-size: 50px;
+    line-height: 54px;
+    font-weight: bold;
     color: white;
+    margin-bottom: 50px;
+  }
+
+  h2 {
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 88px;
+  }
+
+  form {
+    [type="submit"] {
+      background-color: $color-pink;
+      color: white;
+      border: 1px solid $color-pink;
+      text-transform: uppercase;
+      padding: 0.75rem 2.5rem;
+      font-weight: bold;
+      transition: 0.3s all;
+
+      &:hover,
+      &:focus {
+        background-color: $color-purple;
+        border-color: $color-purple;
+      }
+    }
   }
 }
