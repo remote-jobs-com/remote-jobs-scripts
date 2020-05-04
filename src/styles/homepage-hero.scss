@@ -3,4 +3,12 @@
   background-size: cover;
   background-position: center center;
   background-color: $color-blue;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  z-index: 9;
+
+  h1,
+  h2 {
+    color: white;
+  }
 }
