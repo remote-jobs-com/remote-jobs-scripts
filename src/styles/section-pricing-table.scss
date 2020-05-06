@@ -20,6 +20,9 @@
       position: relative;
 
       li {
+        list-style: none;
+        margin-bottom: 10px;
+
         &::before {
           content: "";
           background-image: url('https://raw.githubusercontent.com/remote-jobs-com/remote-jobs-scripts/master/assets/images/blue-tick.svg');
@@ -31,12 +34,24 @@
           background-position: center center;
           position: absolute;
           left: 0;
+          transform: translateY(5px);
         }
       }
 
       span {
         color: $color-navy-blue !important;
       }
+    }
+  }
+
+  .form {
+    position: relative;
+    padding: 0 2rem 2rem 2rem;
+    margin: 0;
+    border-top: 1px solid $color-light-grey;
+
+    .product-item__price {
+      background: none;
     }
   }
 }
