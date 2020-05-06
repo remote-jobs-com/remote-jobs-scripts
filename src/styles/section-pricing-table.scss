@@ -6,6 +6,8 @@
     border: 0 !important;
     border-radius: 0 !important;
     box-shadow: 0 4px 15px 0 rgba(0, 6, 32, 0.06) !important;
+    height: auto;
+    min-height: 365px;
   }
 
   .product-item__title {
@@ -13,6 +15,9 @@
     margin: 0;
     background-color: transparentize($color-pink, 0.9);
     color: $color-pink;
+    text-transform: initial;
+    font-size: 18px;
+    line-height: 25px;
   }
 
   .product-item__description {
@@ -54,7 +59,7 @@
     margin: 0;
 
     .product-item__price {
-      font-size: 32px;
+      font-size: 24px;
       border-top: 1px solid $color-light-grey;
       background: none;
       color: $color-pink;
@@ -73,6 +78,8 @@
       .product-item__title {
         background-color: transparentize($color-blue, 0.9);
         color: $color-blue;
+        font-size: 20px;
+        line-height: 28px;
       }
 
       .product-item__description {
@@ -87,6 +94,7 @@
 
       .form {
         .product-item__price {
+          font-size: 32px;
           color: $color-blue;
         }
 
