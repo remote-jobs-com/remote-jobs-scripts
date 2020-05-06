@@ -9,14 +9,14 @@
     text-decoration: none;
 
     &.btn-primary {
-      background-color: $color-light-blue;
-      border: 1px solid $color-light-blue;
+      background-color: $color-blue;
+      border: 1px solid $color-blue;
       color: white;
 
       &:hover,
       &:focus {
-        background-color: $color-blue;
-        border-color: $color-blue;
+        background-color: $color-light-blue;
+        border-color: $color-light-blue;
       }
     }
 
