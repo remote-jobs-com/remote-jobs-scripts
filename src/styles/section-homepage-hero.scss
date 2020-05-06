@@ -21,8 +21,6 @@
   }
 
   p {
-    margin-top: 12px;
-    margin-bottom: 0;
     color: white;
   }
 
@@ -34,6 +32,10 @@
 
     .form-field {
       display: flex;
+    }
+
+    input {
+      padding: 1.5rem 2.5rem;
     }
   }
 }
