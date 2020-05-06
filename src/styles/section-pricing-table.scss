@@ -17,8 +17,21 @@
     padding: 2rem;
 
     ul {
+      position: relative;
+
       li {
-        list-style-image: url('https://raw.githubusercontent.com/remote-jobs-com/remote-jobs-scripts/master/assets/images/blue-tick.svg');
+        &::before {
+          content: "";
+          background-image: url('https://raw.githubusercontent.com/remote-jobs-com/remote-jobs-scripts/master/assets/images/blue-tick.svg');
+          width: 24px;
+          height: 24px;
+          display: inline-block;
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center center;
+          position: absolute;
+          left: 0;
+        }
       }
 
       span {
