@@ -1,4 +1,6 @@
 .product-items-wrapper {
+  margin-bottom: 80px;
+
   .product-item {
     padding: 0;
     border: 0 !important;
@@ -55,6 +57,7 @@
       font-size: 32px;
       border-top: 1px solid $color-light-grey;
       background: none;
+      color: $color-pink;
     }
 
     .btn {
@@ -83,6 +86,10 @@
       }
 
       .form {
+        .product-item__price {
+          color: $color-blue;
+        }
+
         .btn {
           background-color: $color-blue;
           border-color: $color-blue;
