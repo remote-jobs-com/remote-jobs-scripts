@@ -1,0 +1,20 @@
+.title__primary {
+  position: relative;
+  font-size: 36px !important;
+  line-height: 41px !important;
+  font-weight: bold !important;
+  color: $color-navy-blue !important;
+  padding-bottom: 16px !important;
+
+  &::after {
+    display: block;
+    content: "";
+    height: 5px;
+    width: 42px;
+    background-color: $color-blue;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+  }
+}
