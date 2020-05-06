@@ -9,15 +9,17 @@
   .product-item__title {
     padding: 2.5rem;
     margin: 0;
-    background-color: transparentize($color-blue, 0.9);
-    color: $color-blue;
+    background-color: transparentize($color-pink, 0.9);
+    color: $color-pink;
   }
 
   .product-item__description {
-    padding: 2rem;
+    padding: 2.5rem;
 
     ul {
       position: relative;
+      padding-left: 36px;
+      margin-bottom: 2rem;
 
       li {
         list-style: none;
@@ -25,7 +27,7 @@
 
         &::before {
           content: "";
-          background-image: url('https://raw.githubusercontent.com/remote-jobs-com/remote-jobs-scripts/master/assets/images/blue-tick.svg');
+          background-image: url('https://raw.githubusercontent.com/remote-jobs-com/remote-jobs-scripts/master/assets/images/purple-tick.svg');
           width: 24px;
           height: 24px;
           display: inline-block;
@@ -46,12 +48,46 @@
 
   .form {
     position: relative;
-    padding: 0 2rem 2rem 2rem;
+    padding: 0 3rem 2rem 3rem;
     margin: 0;
-    border-top: 1px solid $color-light-grey;
 
     .product-item__price {
+      font-size: 32px;
+      border-top: 1px solid $color-light-grey;
       background: none;
+    }
+
+    .btn {
+      width: 100%;
+      border-radius: 3px;
+      background-color: $color-pink;
+      border-radius: $color-pink;
+    }
+  }
+
+  .product-item-wrap {
+    &:first-child {
+      .product-item__title {
+        background-color: transparentize($color-blue, 0.9);
+        color: $color-blue;
+      }
+
+      .product-item__description {
+        ul {
+          li {
+            &::before {
+              background-image: url('https://raw.githubusercontent.com/remote-jobs-com/remote-jobs-scripts/master/assets/images/blue-tick.svg');
+            }
+          }
+        }
+      }
+
+      .form {
+        .btn {
+          background-color: $color-blue;
+          border-radius: $color-blue;
+        }
+      }
     }
   }
 }
