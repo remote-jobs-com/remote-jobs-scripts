@@ -4,6 +4,11 @@
     line-height: 41px;
     font-weight: bold;
     color: $color-navy-blue;
+
+    @media screen and (max-width: 768px) {
+      font-size: 28px;
+      line-height: 34px;
+    }
   }
 
   h2 {
@@ -11,6 +16,11 @@
     line-height: 32px;
     font-weight: bold;
     color: $color-navy-blue;
+
+    @media screen and (max-width: 768px) {
+      font-size: 20px;
+      line-height: 28px;
+    }
   }
 
   h3 {
@@ -18,6 +28,11 @@
     line-height: 32px;
     font-weight: normal;
     color: $color-navy-blue;
+
+    @media screen and (max-width: 768px) {
+      font-size: 18px;
+      line-height: 24px;
+    }
   }
 
   h4 {

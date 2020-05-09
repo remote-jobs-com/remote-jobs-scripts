@@ -2,10 +2,10 @@ let App = {
     init() {
         console.log('initializing remote jobs');
 
-        $('.form-control__google-location').attr('placeholder', 'Base Location (Mostly, Part, Adhoc Remote)');
+        // Replace the placeholder for location search fields
+        $('.form-control__google-location').attr('placeholder', 'Base Location (Optional)');
     }
 };
-
 
 let waitForjQuery = setInterval(function () {
     if (typeof $ !== 'undefined') {
