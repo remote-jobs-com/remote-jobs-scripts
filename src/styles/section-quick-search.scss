@@ -1,0 +1,12 @@
+.quick-search {
+  .form-group__input {
+    position: relative;
+  }
+
+  #search-tips {
+    position: absolute;
+    left: 3rem;
+    top: 100%;
+    color: $color-grey;
+  }
+}
