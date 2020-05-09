@@ -9,6 +9,10 @@
     height: auto;
     min-height: 365px;
     margin-right: 32px;
+
+    @media screen and (max-width: 768px) {
+      margin-right: 0;
+    }
   }
 
   .product-item__title {
@@ -75,6 +79,12 @@
   }
 
   .product-item-wrap {
+    @media screen and (max-width: 768px) {
+      flex-basis: 100% !important;
+      width: 100% !important;
+      margin: 0 auto !important;
+    }
+
     &:first-child {
       .product-item__title {
         background-color: transparentize($color-blue, 0.9);
