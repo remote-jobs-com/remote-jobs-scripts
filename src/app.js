@@ -1,7 +1,15 @@
+let App = {
+    init() {
+        console.log('initializing remote jobs');
+
+        $('.form-control__google-location').attr('placeholder', 'Base Location (Mostly, Part, Adhoc Remote)');
+    }
+};
+
+
 let waitForjQuery = setInterval(function () {
     if (typeof $ !== 'undefined') {
-        console.log('hello remote jobs', $);
-
+        App.init();
         clearInterval(waitForjQuery);
     }
 }, 10);
