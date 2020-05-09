@@ -20,6 +20,10 @@
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center center;
+
+      @media screen and (max-width: 768px) {
+        right: 2rem;
+      }
     }
   }
 }
