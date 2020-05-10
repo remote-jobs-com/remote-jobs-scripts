@@ -2,4 +2,12 @@
   #search-tips {
     color: $color-grey !important;
   }
+
+  #location-onsite {
+    display: none;
+  }
+
+  label[for="location-onsite"] {
+    display: none;
+  }
 }
