@@ -48,8 +48,9 @@
     font-weight: normal;
     color: $color-navy-blue;
 
+    &.small,
     small {
-      font-size: 14px;
+      font-size: 15px;
     }
   }
 
