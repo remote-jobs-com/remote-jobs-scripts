@@ -10,3 +10,26 @@
 .body-bg {
   display: none !important;
 }
+
+.icon-list {
+  position: absolute;
+
+  li {
+    list-style: none;
+    margin-bottom: 10px;
+
+    &::before {
+      content: "";
+      background-image: url('https://raw.githubusercontent.com/remote-jobs-com/remote-jobs-scripts/master/assets/images/purple-tick.svg');
+      width: 24px;
+      height: 24px;
+      display: inline-block;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: absolute;
+      left: 0;
+      transform: translateY(5px);
+    }
+  }
+}
