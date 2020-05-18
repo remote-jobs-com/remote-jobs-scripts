@@ -1,0 +1,17 @@
+#editListingForm {
+  #search-tips {
+    color: $color-grey !important;
+  }
+
+  #location-remote {
+    margin-left: -10px !important;
+  }
+
+  #location-onsite {
+    display: none;
+  }
+
+  label[for="location-onsite"] {
+    display: none;
+  }
+}
