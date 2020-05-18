@@ -12,8 +12,6 @@
 }
 
 .icon-list {
-  position: absolute;
-
   li {
     list-style: none;
     margin-bottom: 10px;
@@ -29,7 +27,7 @@
       background-position: center center;
       position: absolute;
       left: 0;
-      transform: translateY(5px);
+      transform: translateY(2px);
     }
   }
 }
