@@ -1,0 +1,35 @@
+.listing-results {
+  .details-header {
+    .listing-item__info--item {
+      color: $color-navy-blue;
+    }
+  }
+
+  .job-type__value {
+    color: $color-blue;
+    border-color: $color-blue;
+  }
+
+  .details-body__content {
+    padding-left: 0;
+
+    &.content-text {
+      color: $color-navy-blue;
+    }
+  }
+
+  .profile__info__name {
+    margin-bottom: 1rem;
+  }
+
+  .profile__info__description {
+    color: $color-navy-blue;
+  }
+
+  .profile {
+    .btn__profile {
+      color: $color-navy-blue;
+      border-color: $color-navy-blue;
+    }
+  }
+}
