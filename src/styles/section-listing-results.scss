@@ -2,6 +2,7 @@
   .details-header {
     .listing-item__info--item {
       color: $color-navy-blue;
+      opacity: 1;
     }
   }
 
@@ -19,6 +20,7 @@
   }
 
   .profile__info__name {
+    color: $color-navy-blue;
     margin-bottom: 1rem;
   }
 

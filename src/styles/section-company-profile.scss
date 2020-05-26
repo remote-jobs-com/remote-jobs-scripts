@@ -9,6 +9,26 @@
     a {
       color: $color-navy-blue;
     }
+
+    .details-header {
+      .listing-item__info--item-website {
+        svg {
+          path {
+            fill: #000 !important;
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+}
+
+.details-body__company-profile {
+  .profile__info__description {
+    &.content-text {
+      color: $color-navy-blue;
+      font-size: 18px;
+    }
   }
 
   .sidebar {
