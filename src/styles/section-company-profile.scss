@@ -1,0 +1,19 @@
+.company-profile {
+  .listing-item__info--item {
+    color: $color-navy-blue;
+
+    &::before {
+      opacity: 0.7;
+    }
+
+    a {
+      color: $color-navy-blue;
+    }
+  }
+
+  .sidebar {
+    .alert__block-form {
+      width: 100% !important;
+    }
+  }
+}
