@@ -12,20 +12,14 @@
     &::after {
       content: "";
       position: absolute;
-      bottom: 2rem;
-      right: 4rem;
-      height: 5rem;
-      width: 5rem;
+      top: 1rem;
+      right: 1rem;
+      height: 2rem;
+      width: 2rem;
       background-image: url('https://raw.githubusercontent.com/remote-jobs-com/remote-jobs-scripts/master/assets/images/remote-jobs-logo.svg');
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center center;
-
-      @media screen and (max-width: 768px) {
-        top: 10rem;
-        right: 2rem;
-        bottom: initial;
-      }
     }
   }
 }
